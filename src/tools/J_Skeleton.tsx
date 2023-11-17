@@ -1,8 +1,9 @@
 import React from 'react';
 import { Skeleton } from '@mui/material';
-import { IReactRCProps } from './IReactDom';
+import { TReactRCProps } from '../types';
+ 
 
-interface ISkeletonProps extends IReactRCProps {
+interface ISkeletonProps extends TReactRCProps {
   isLoading: boolean;
   children: React.ReactNode;
   variant?: 'text' | 'rectangular' | 'rounded';

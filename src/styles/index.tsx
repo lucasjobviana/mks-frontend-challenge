@@ -84,7 +84,7 @@ export const ShopMenuWrapper = styled.aside`
       background: black;
       width: 30px;
       height: 30px;
-
+      cursor: pointer;
       border-radius: 50%;
       font-size: 1.5rem;
 
