@@ -2,9 +2,19 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './styles/reset.css'
+import { QueryClient, QueryClientProvider } from 'react-query'
+import { ProductProvider, ShopCartProvider } from './context'
+
+const queryClient = new QueryClient()
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <QueryClientProvider client={queryClient}>
+      <ProductProvider>
+        <ShopCartProvider>
+          <App />
+        </ShopCartProvider>
+      </ProductProvider>
+    </QueryClientProvider>
   </React.StrictMode>,
 )

@@ -1,6 +1,5 @@
-// import React,{ useEffect, useState, useMemo } from 'react';
 import { HomeWrapper } from '../styles';
-import { Header, Main ,Footer } from '../components';
+import { Header, Main , Footer, ShopMenu } from '../components';
 
 export const Home = () => {
     return (
@@ -8,6 +7,7 @@ export const Home = () => {
             <Header />
             <Main />
             <Footer />   
+            <ShopMenu />
         </HomeWrapper>
     )
 }

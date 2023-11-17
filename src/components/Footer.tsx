@@ -1,10 +1,9 @@
-// import React,{ useEffect, useState, useMemo } from 'react';
-import { Footer_Style } from '../styles';
+import { FooterWrapper } from '../styles';
 
 export const Footer = () => {
     return (
-        <Footer_Style>
+        <FooterWrapper>
              Mks Sistemas - Todos os direitos reservados
-        </Footer_Style>
+        </FooterWrapper>
     )
 }
