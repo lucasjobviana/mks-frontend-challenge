@@ -1,4 +1,4 @@
-Diretrizes do desafio
+Diretrizes do desafio 
 ===========================
 
 O objetivo principal desse teste é avaliar sua capacidade de escrever código limpo, bem testado e reutilizável. Ao terminar, faça o deploy da aplicação e mande-nos o link.
